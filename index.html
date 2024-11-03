@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Objects in JS</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            var student = {name:"Stephanie", nickname:"Steph", favouriteFood: "Mac and Cheese", bestie: "Camryne"};
+            document.getElementById("demo").innerHTML = " My name is "+ student.name
+            + " But my friends call me " + student["nickname"] +  " My favourite food is " + student.favouriteFood
+            +  " My Bestie is " + student["bestie"];
+        </script>
+    </body>
+</html>
